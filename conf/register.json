@@ -1,0 +1,12 @@
+{
+  "register": {
+    "consul_address": "127.0.0.1:8500",
+    "service": "helloService",
+    "tag": [
+      "hello"
+    ],
+    "port": 8090,
+    "deregisterCriticalServiceAfter": 60,
+    "interval": 10
+  }
+}
